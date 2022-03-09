@@ -657,7 +657,7 @@
 \RequirePackage{fancyhdr}
 
 \setlength{\headheight}{15pt}
-\renewcommand{\headrule}{\hrule height 0.5pt \vspace{0.8pt}\hrule height 0.5pt}
+\renewcommand{\headrule}{\vspace{2pt} \hrule height 0.5pt \vspace{0.8pt}\hrule height 0.5pt} % 与word中的高度保持一致
 \renewcommand{\headrulewidth}{0.65pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -692,7 +692,7 @@
 \titleformat{\subsubparagraph}[block]
   {\fontsize{12pt}{12pt}\selectfont}{（\alph{subsubparagraph}）}{6pt}{}
 
-\titlespacing{\chapter}{0pt}{0mm}{14pt}
+\titlespacing{\chapter}{0pt}{-2.8mm}{14pt} % 与word中的高度保持一致
 \titlespacing{\section}{0pt}{18pt}{6pt}
 \titlespacing{\subsection}{2em}{12pt}{6pt}
 \titlespacing{\subsubsection}{2em}{12pt}{6pt}
